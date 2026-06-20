@@ -3,7 +3,7 @@ name: 'Tests: fast'
 on: [push, pull_request]
 
 permissions:
-  contents: read
+  contents: allow all actions: 
 
 jobs:
   fast:
